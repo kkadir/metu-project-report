@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B582A094-A743-46D8-B612-C0BF8BC20A60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metu.MarketData.Client", "src\Metu.MarketData.Client\Metu.MarketData.Client.csproj", "{61D6401C-A080-4150-8FD1-5ECF4FDD7621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metu.MarketData.Kdb", "src\Metu.MarketData.Kdb\Metu.MarketData.Kdb.csproj", "{13856334-D0B7-4B9A-A2CB-C8B51BEE602A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61D6401C-A080-4150-8FD1-5ECF4FDD7621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D6401C-A080-4150-8FD1-5ECF4FDD7621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D6401C-A080-4150-8FD1-5ECF4FDD7621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D6401C-A080-4150-8FD1-5ECF4FDD7621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13856334-D0B7-4B9A-A2CB-C8B51BEE602A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13856334-D0B7-4B9A-A2CB-C8B51BEE602A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13856334-D0B7-4B9A-A2CB-C8B51BEE602A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13856334-D0B7-4B9A-A2CB-C8B51BEE602A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{61D6401C-A080-4150-8FD1-5ECF4FDD7621} = {B582A094-A743-46D8-B612-C0BF8BC20A60}
+		{13856334-D0B7-4B9A-A2CB-C8B51BEE602A} = {B582A094-A743-46D8-B612-C0BF8BC20A60}
+	EndGlobalSection
+EndGlobal
